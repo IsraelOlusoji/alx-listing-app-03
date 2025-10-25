@@ -17,7 +17,7 @@ const HomePage: React.FC = () => {
   ];
 
   const filteredProperties =
-    activeFilter === "All"
+    activeFilter === "All" 
       ? PROPERTYLISTINGSAMPLE
       : PROPERTYLISTINGSAMPLE.filter((property) =>
           property.category.includes(activeFilter)
